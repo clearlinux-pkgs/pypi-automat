@@ -5,7 +5,7 @@
 #
 Name     : pypi-automat
 Version  : 22.10.0
-Release  : 13
+Release  : 14
 URL      : https://files.pythonhosted.org/packages/7a/7b/9c3d26d8a0416eefbc0428f168241b32657ca260fb7ef507596ff5c2f6c4/Automat-22.10.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/7a/7b/9c3d26d8a0416eefbc0428f168241b32657ca260fb7ef507596ff5c2f6c4/Automat-22.10.0.tar.gz
 Summary  : Self-service finite-state machines for the programmer on the go.
