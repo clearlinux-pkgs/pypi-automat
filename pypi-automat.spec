@@ -6,10 +6,10 @@
 # autospec commit: f35655a
 #
 Name     : pypi-automat
-Version  : 24.8.0
-Release  : 16
-URL      : https://files.pythonhosted.org/packages/60/b4/7002a0ac39e80a9e62f1228f60a8f7f4525a22cbaf804647a2ab8e0172d9/automat-24.8.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/60/b4/7002a0ac39e80a9e62f1228f60a8f7f4525a22cbaf804647a2ab8e0172d9/automat-24.8.0.tar.gz
+Version  : 24.8.1
+Release  : 17
+URL      : https://files.pythonhosted.org/packages/8d/2d/ede4ad7fc34ab4482389fa3369d304f2fa22e50770af706678f6a332fa82/automat-24.8.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/8d/2d/ede4ad7fc34ab4482389fa3369d304f2fa22e50770af706678f6a332fa82/automat-24.8.1.tar.gz
 Summary  : Self-service finite-state machines for the programmer on the go.
 Group    : Development/Tools
 License  : MIT
@@ -73,10 +73,10 @@ python3 components for the pypi-automat package.
 
 
 %prep
-%setup -q -n automat-24.8.0
-cd %{_builddir}/automat-24.8.0
+%setup -q -n automat-24.8.1
+cd %{_builddir}/automat-24.8.1
 pushd ..
-cp -a automat-24.8.0 buildavx2
+cp -a automat-24.8.1 buildavx2
 popd
 
 %build
@@ -84,7 +84,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1723945202
+export SOURCE_DATE_EPOCH=1724104555
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
