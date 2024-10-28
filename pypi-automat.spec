@@ -7,7 +7,7 @@
 #
 Name     : pypi-automat
 Version  : 24.8.1
-Release  : 17
+Release  : 18
 URL      : https://files.pythonhosted.org/packages/8d/2d/ede4ad7fc34ab4482389fa3369d304f2fa22e50770af706678f6a332fa82/automat-24.8.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/8d/2d/ede4ad7fc34ab4482389fa3369d304f2fa22e50770af706678f6a332fa82/automat-24.8.1.tar.gz
 Summary  : Self-service finite-state machines for the programmer on the go.
